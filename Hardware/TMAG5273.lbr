@@ -362,8 +362,8 @@ the X, Y, and Z axes.
 <wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="94"/>
-<text x="-10.3124" y="5.5626" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-10.1854" y="-7.6454" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-10.3124" y="5.5626" size="2.0828" layer="95" font="vector" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-10.1854" y="-7.6454" size="2.0828" layer="96" font="vector" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
