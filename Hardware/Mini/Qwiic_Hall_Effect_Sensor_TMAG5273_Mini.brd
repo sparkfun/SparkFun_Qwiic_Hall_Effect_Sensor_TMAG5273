@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -188,45 +188,24 @@
 <wire x1="25.4" y1="0" x2="25.4" y2="12.7" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="12.7" x2="0" y2="12.7" width="0.2032" layer="20"/>
 <wire x1="0" y1="12.7" x2="0" y2="0" width="0.2032" layer="20"/>
+<text x="45.72" y="40.64" size="1.778" layer="51" font="vector" align="top-left">Solder Mask: Red
+Thickness: 1.6mm
+Two layer design
+Finish: HASL Lead-Free
+Copper Weight: 1oz
+Material: TG135-140</text>
+<dimension x1="5.08" y1="8.89" x2="5.08" y2="0" x3="-2.54" y3="4.445" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="12.7" x2="0" y2="0" x3="-6.35" y3="6.35" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="19.05" y1="1.27" x2="19.05" y2="0" x3="29.21" y3="0.635" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="22.86" y1="2.54" x2="22.86" y2="0" x3="34.29" y3="1.27" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="22.86" y1="2.54" x2="0" y2="2.54" x3="11.43" y3="-3.81" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="25.4" y1="0" x2="0" y2="0" x3="12.7" y3="-7.62" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="6.35" y1="1.27" x2="0" y2="1.27" x3="3.175" y3="15.24" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="4.699" y1="8.89" x2="0" y2="8.89" x3="2.3495" y3="19.05" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="2.54" x2="0" y2="2.54" x3="1.27" y3="22.86" textsize="1.778" layer="47" unit="inch"/>
+<text x="24.384" y="5.969" size="1.27" layer="16" font="vector" ratio="15" rot="SMR270" align="center">v01</text>
 </plain>
 <libraries>
-<library name="SparkFun-LED">
-<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
-This library contains discrete LEDs for illumination or indication, but no displays.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LED-0603">
-<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
-0603, surface mount.
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
-&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
-<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.2032" layer="21"/>
-<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
-</package>
-</packages>
-</library>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
 This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
@@ -4649,6 +4628,43 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-LED">
+<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
+This library contains discrete LEDs for illumination or indication, but no displays.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="LED-0603">
+<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
+0603, surface mount.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
+&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
+<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
+<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.2032" layer="21"/>
+<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
+<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4838,11 +4854,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </pass>
 </autorouter>
 <elements>
-<element name="D1" library="SparkFun-LED" package="LED-0603" value="RED" x="17.145" y="8.89" smashed="yes" rot="R270">
-<attribute name="NAME" x="17.78" y="8.89" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00819" x="-53.975" y="-55.88" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="16.51" y="8.89" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
-</element>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="24.13" y="10.16" smashed="yes"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="1.27" y="7.62" smashed="yes"/>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="1.27" y="7.62" smashed="yes" rot="MR0"/>
@@ -4875,17 +4886,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_5MM" value="SFE_LOGO_NAME_FLAME5_MM" x="6.35" y="8.89" smashed="yes" rot="MR0"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="22.86" y="7.366" smashed="yes" rot="MR0"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_7MM" value="SFE_LOGO_NAME7_MM" x="14.224" y="11.684" smashed="yes"/>
-<element name="LOGO5" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="92.71" y="50.8" smashed="yes"/>
+<element name="LOGO5" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-ORDERING" x="44.45" y="50.8" smashed="yes"/>
 <element name="LOGO6" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.05" value="SFE_LOGO_FLAME0.05_INCH" x="11.557" y="8.128" smashed="yes"/>
 <element name="R2" library="SparkFun-Resistors" package="0603" value="2.2k" x="13.97" y="10.287" smashed="yes">
 <attribute name="NAME" x="13.97" y="11.049" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08272" x="59.69" y="-60.833" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="13.97" y="9.525" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="R3" library="SparkFun-Resistors" package="0603" value="1k" x="18.796" y="8.89" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.558" y="8.89" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07856" x="-52.324" y="-40.64" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="18.034" y="8.89" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0603" value="10k" x="11.43" y="3.937" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.668" y="3.937" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -4950,6 +4956,16 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="U$9" library="output" package="#RST#5279" value="" x="11.43" y="3.81" smashed="yes" rot="MR270"/>
 <element name="U$10" library="output" package="#LED#5275" value="" x="18.796" y="5.969" smashed="yes"/>
+<element name="D1" library="SparkFun-LED" package="LED-0603" value="Red" x="17.145" y="8.89" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.78" y="8.89" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-17976" x="17.145" y="8.89" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="VALUE" x="16.51" y="8.89" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+</element>
+<element name="R3" library="SparkFun-Resistors" package="0603" value="4.7k" x="18.796" y="8.89" smashed="yes" rot="R270">
+<attribute name="NAME" x="19.558" y="8.89" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-07857" x="18.796" y="8.89" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="VALUE" x="18.034" y="8.89" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -5111,16 +5127,16 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="4.83365625" y1="3.937" x2="6.223" y2="3.937" width="0.254" layer="16"/>
 </signal>
 <signal name="N$4">
-<contactref element="R3" pad="1"/>
 <contactref element="D1" pad="A"/>
 <wire x1="17.145" y1="9.767" x2="18.769" y2="9.767" width="0.254" layer="1"/>
-<wire x1="18.769" y1="9.767" x2="18.796" y2="9.74" width="0.254" layer="1"/>
+<contactref element="R3" pad="1"/>
+<wire x1="17.145" y1="9.767" x2="18.796" y2="9.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="JP3" pad="2"/>
+<wire x1="16.3957" y1="5.969" x2="16.3957" y2="7.2637" width="0.254" layer="1"/>
 <contactref element="D1" pad="C"/>
-<wire x1="17.145" y1="8.013" x2="16.3957" y2="7.2637" width="0.254" layer="1"/>
-<wire x1="16.3957" y1="7.2637" x2="16.3957" y2="5.969" width="0.254" layer="1"/>
+<wire x1="16.3957" y1="7.2637" x2="17.145" y2="8.013" width="0.254" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="JP2" pad="1"/>
@@ -5166,7 +5182,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </signal>
 <signal name="3.3V_SW">
 <contactref element="JP1" pad="2"/>
-<contactref element="R3" pad="2"/>
 <contactref element="JP2" pad="2"/>
 <contactref element="C1" pad="1"/>
 <contactref element="U1" pad="4"/>
@@ -5178,8 +5193,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="11.115" y1="7.305" x2="11.33475" y2="7.305" width="0.635" layer="16"/>
 <wire x1="10.16" y1="8.04" x2="10.16" y2="6.35" width="0.635" layer="1"/>
 <wire x1="11.85" y1="6.35" x2="13.501" y2="4.699" width="0.635" layer="1"/>
-<wire x1="18.796" y1="5.75948125" x2="18.796" y2="8.04" width="0.635" layer="1"/>
-<wire x1="17.73551875" y1="4.699" x2="18.796" y2="5.75948125" width="0.635" layer="1"/>
+<wire x1="18.796" y1="5.75948125" x2="17.73551875" y2="4.699" width="0.635" layer="1"/>
 <wire x1="13.501" y1="4.699" x2="14.605" y2="4.699" width="0.635" layer="1"/>
 <wire x1="14.605" y1="4.699" x2="17.73551875" y2="4.699" width="0.635" layer="1"/>
 <wire x1="10.16" y1="6.35" x2="9.4361" y2="5.6261" width="0.635" layer="16"/>
@@ -5194,6 +5208,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="7.62" y="4.318" extent="1-16" drill="0.3048"/>
 <wire x1="8.89" y1="5.6261" x2="7.62" y2="4.3561" width="0.635" layer="16"/>
 <wire x1="7.62" y1="4.318" x2="7.62" y2="4.3561" width="0.635" layer="16"/>
+<contactref element="R3" pad="2"/>
+<wire x1="18.796" y1="8.04" x2="18.796" y2="5.75948125" width="0.635" layer="1"/>
 </signal>
 <signal name="GPIO">
 <contactref element="R6" pad="1"/>
@@ -5233,6 +5249,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
