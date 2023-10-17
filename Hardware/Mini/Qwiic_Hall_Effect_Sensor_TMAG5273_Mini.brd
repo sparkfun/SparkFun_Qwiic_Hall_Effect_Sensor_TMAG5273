@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -16,9 +16,9 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -34,10 +34,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -2091,104 +2091,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="output">
 <packages>
-<package name="##INT#40">
-<polygon width="0.01" layer="21">
-<vertex x="-1.34" y="0.68"/>
-<vertex x="-1.95" y="0.68"/>
-<vertex x="-1.95" y="0.64"/>
-<vertex x="-1.64" y="0.03"/>
-<vertex x="-1.64" y="-0.03"/>
-<vertex x="-1.95" y="-0.63"/>
-<vertex x="-1.95" y="-0.68"/>
-<vertex x="1.57" y="-0.68"/>
-<vertex x="1.63" y="-0.67"/>
-<vertex x="1.63" y="0.62"/>
-<vertex x="1.62" y="0.68"/>
-<vertex x="-1.29" y="0.68"/>
-<vertex x="-1.29" y="0.61"/>
-<vertex x="1.28" y="0.61"/>
-<vertex x="1.29" y="0.55"/>
-<vertex x="1.29" y="0.48"/>
-<vertex x="1.23" y="0.47"/>
-<vertex x="-1.27" y="0.47"/>
-<vertex x="-1.29" y="0.52"/>
-<vertex x="-1.29" y="0.59"/>
-<vertex x="-1.29" y="0.61"/>
-<vertex x="-1.29" y="0.68"/>
-<vertex x="-1.21" y="0.33"/>
-<vertex x="-1.15" y="0.34"/>
-<vertex x="-1.06" y="0.34"/>
-<vertex x="-1.02" y="0.3"/>
-<vertex x="-1.01" y="0.24"/>
-<vertex x="-1.01" y="-0.51"/>
-<vertex x="-0.8" y="-0.54"/>
-<vertex x="-0.8" y="0.21"/>
-<vertex x="-0.8" y="0.28"/>
-<vertex x="-0.77" y="0.33"/>
-<vertex x="-0.7" y="0.35"/>
-<vertex x="-0.63" y="0.34"/>
-<vertex x="-0.59" y="0.31"/>
-<vertex x="-0.53" y="0.23"/>
-<vertex x="-0.33" y="-0.03"/>
-<vertex x="-0.21" y="-0.2"/>
-<vertex x="-0.2" y="-0.17"/>
-<vertex x="-0.2" y="0.24"/>
-<vertex x="-0.19" y="0.3"/>
-<vertex x="-0.16" y="0.33"/>
-<vertex x="-0.09" y="0.35"/>
-<vertex x="-0.02" y="0.34"/>
-<vertex x="0.02" y="0.29"/>
-<vertex x="0.03" y="0.22"/>
-<vertex x="0.2" y="0.23"/>
-<vertex x="0.21" y="0.3"/>
-<vertex x="0.25" y="0.34"/>
-<vertex x="0.34" y="0.35"/>
-<vertex x="1.02" y="0.35"/>
-<vertex x="1.09" y="0.33"/>
-<vertex x="1.11" y="0.27"/>
-<vertex x="1.1" y="0.2"/>
-<vertex x="1.06" y="0.16"/>
-<vertex x="0.99" y="0.16"/>
-<vertex x="0.79" y="0.16"/>
-<vertex x="0.77" y="0.11"/>
-<vertex x="0.77" y="-0.5"/>
-<vertex x="0.76" y="-0.57"/>
-<vertex x="0.71" y="-0.61"/>
-<vertex x="0.63" y="-0.61"/>
-<vertex x="0.57" y="-0.59"/>
-<vertex x="0.55" y="-0.54"/>
-<vertex x="0.55" y="0.14"/>
-<vertex x="0.49" y="0.16"/>
-<vertex x="0.29" y="0.16"/>
-<vertex x="0.22" y="0.17"/>
-<vertex x="0.2" y="0.23"/>
-<vertex x="0.03" y="0.22"/>
-<vertex x="0.03" y="-0.53"/>
-<vertex x="0.01" y="-0.58"/>
-<vertex x="-0.04" y="-0.61"/>
-<vertex x="-0.13" y="-0.61"/>
-<vertex x="-0.18" y="-0.59"/>
-<vertex x="-0.57" y="-0.08"/>
-<vertex x="-0.58" y="-0.09"/>
-<vertex x="-0.58" y="-0.5"/>
-<vertex x="-0.59" y="-0.56"/>
-<vertex x="-0.62" y="-0.6"/>
-<vertex x="-0.71" y="-0.61"/>
-<vertex x="-0.78" y="-0.59"/>
-<vertex x="-0.8" y="-0.54"/>
-<vertex x="-1.01" y="-0.51"/>
-<vertex x="-1.02" y="-0.57"/>
-<vertex x="-1.06" y="-0.6"/>
-<vertex x="-1.15" y="-0.61"/>
-<vertex x="-1.21" y="-0.59"/>
-<vertex x="-1.23" y="-0.54"/>
-<vertex x="-1.24" y="-0.47"/>
-<vertex x="-1.24" y="0.21"/>
-<vertex x="-1.24" y="0.27"/>
-<vertex x="-1.21" y="0.32"/>
-<vertex x="-1.29" y="0.68"/>
-</polygon>
-</package>
 <package name="#SCL#38">
 <polygon width="0.01" layer="21">
 <vertex x="-1.46" y="0.67"/>
@@ -4584,6 +4486,129 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.9" y="-0.24"/>
 </polygon>
 </package>
+<package name="##INT#5276">
+<polygon width="0.01" layer="21">
+<vertex x="-1.34" y="0.68"/>
+<vertex x="-1.41" y="0.67"/>
+<vertex x="-1.47" y="0.65"/>
+<vertex x="-1.54" y="0.63"/>
+<vertex x="-1.6" y="0.6"/>
+<vertex x="-1.66" y="0.57"/>
+<vertex x="-1.71" y="0.53"/>
+<vertex x="-1.76" y="0.49"/>
+<vertex x="-1.81" y="0.44"/>
+<vertex x="-1.85" y="0.38"/>
+<vertex x="-1.88" y="0.32"/>
+<vertex x="-1.91" y="0.26"/>
+<vertex x="-1.94" y="0.2"/>
+<vertex x="-1.95" y="0.13"/>
+<vertex x="-1.96" y="0.07"/>
+<vertex x="-1.97" y="0"/>
+<vertex x="-1.96" y="-0.07"/>
+<vertex x="-1.95" y="-0.13"/>
+<vertex x="-1.94" y="-0.2"/>
+<vertex x="-1.91" y="-0.26"/>
+<vertex x="-1.89" y="-0.32"/>
+<vertex x="-1.85" y="-0.38"/>
+<vertex x="-1.81" y="-0.44"/>
+<vertex x="-1.76" y="-0.49"/>
+<vertex x="-1.71" y="-0.53"/>
+<vertex x="-1.66" y="-0.57"/>
+<vertex x="-1.6" y="-0.6"/>
+<vertex x="-1.54" y="-0.63"/>
+<vertex x="-1.47" y="-0.65"/>
+<vertex x="-1.41" y="-0.67"/>
+<vertex x="-1.34" y="-0.68"/>
+<vertex x="-1.27" y="-0.68"/>
+<vertex x="-1.21" y="-0.59"/>
+<vertex x="-1.23" y="-0.54"/>
+<vertex x="-1.24" y="-0.47"/>
+<vertex x="-1.24" y="0.21"/>
+<vertex x="-1.24" y="0.27"/>
+<vertex x="-1.21" y="0.33"/>
+<vertex x="-1.15" y="0.34"/>
+<vertex x="-1.06" y="0.34"/>
+<vertex x="-1.02" y="0.3"/>
+<vertex x="-1.01" y="0.24"/>
+<vertex x="-1.01" y="-0.51"/>
+<vertex x="-0.8" y="-0.54"/>
+<vertex x="-0.8" y="0.21"/>
+<vertex x="-0.8" y="0.28"/>
+<vertex x="-0.77" y="0.33"/>
+<vertex x="-0.7" y="0.35"/>
+<vertex x="-0.63" y="0.34"/>
+<vertex x="-0.58" y="0.31"/>
+<vertex x="-0.52" y="0.23"/>
+<vertex x="-0.33" y="-0.03"/>
+<vertex x="-0.21" y="-0.2"/>
+<vertex x="-0.2" y="-0.17"/>
+<vertex x="-0.2" y="0.24"/>
+<vertex x="-0.19" y="0.3"/>
+<vertex x="-0.15" y="0.33"/>
+<vertex x="-0.09" y="0.35"/>
+<vertex x="-0.02" y="0.34"/>
+<vertex x="0.02" y="0.29"/>
+<vertex x="0.03" y="0.22"/>
+<vertex x="0.2" y="0.23"/>
+<vertex x="0.21" y="0.3"/>
+<vertex x="0.25" y="0.34"/>
+<vertex x="0.34" y="0.35"/>
+<vertex x="1.02" y="0.35"/>
+<vertex x="1.09" y="0.33"/>
+<vertex x="1.11" y="0.27"/>
+<vertex x="1.1" y="0.2"/>
+<vertex x="1.06" y="0.16"/>
+<vertex x="0.99" y="0.16"/>
+<vertex x="0.79" y="0.16"/>
+<vertex x="0.77" y="0.11"/>
+<vertex x="0.77" y="-0.5"/>
+<vertex x="0.76" y="-0.57"/>
+<vertex x="0.71" y="-0.61"/>
+<vertex x="0.63" y="-0.61"/>
+<vertex x="0.57" y="-0.59"/>
+<vertex x="0.55" y="-0.54"/>
+<vertex x="0.55" y="0.14"/>
+<vertex x="0.49" y="0.16"/>
+<vertex x="0.29" y="0.16"/>
+<vertex x="0.22" y="0.17"/>
+<vertex x="0.2" y="0.23"/>
+<vertex x="0.03" y="0.22"/>
+<vertex x="0.03" y="-0.53"/>
+<vertex x="0.01" y="-0.58"/>
+<vertex x="-0.04" y="-0.61"/>
+<vertex x="-0.13" y="-0.61"/>
+<vertex x="-0.19" y="-0.59"/>
+<vertex x="-0.57" y="-0.08"/>
+<vertex x="-0.58" y="-0.09"/>
+<vertex x="-0.58" y="-0.5"/>
+<vertex x="-0.59" y="-0.56"/>
+<vertex x="-0.63" y="-0.6"/>
+<vertex x="-0.71" y="-0.61"/>
+<vertex x="-0.78" y="-0.59"/>
+<vertex x="-0.8" y="-0.54"/>
+<vertex x="-1.01" y="-0.51"/>
+<vertex x="-1.02" y="-0.57"/>
+<vertex x="-1.06" y="-0.6"/>
+<vertex x="-1.15" y="-0.61"/>
+<vertex x="-1.21" y="-0.59"/>
+<vertex x="-1.27" y="-0.68"/>
+<vertex x="1.57" y="-0.68"/>
+<vertex x="1.63" y="-0.67"/>
+<vertex x="1.63" y="0.62"/>
+<vertex x="1.62" y="0.68"/>
+<vertex x="-1.29" y="0.68"/>
+<vertex x="-1.29" y="0.61"/>
+<vertex x="1.28" y="0.61"/>
+<vertex x="1.29" y="0.55"/>
+<vertex x="1.29" y="0.48"/>
+<vertex x="1.23" y="0.47"/>
+<vertex x="-1.27" y="0.47"/>
+<vertex x="-1.29" y="0.52"/>
+<vertex x="-1.29" y="0.59"/>
+<vertex x="-1.29" y="0.61"/>
+<vertex x="-1.29" y="0.68"/>
+</polygon>
+</package>
 </packages>
 </library>
 <library name="SparkFun-DiscreteSemi">
@@ -4921,11 +4946,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CAP-16503" x="12.7" y="6.477" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="12.7" y="5.715" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U$1" library="output" package="##INT#40" value="" x="19.05" y="3.683" smashed="yes" rot="MR270"/>
 <element name="U$2" library="output" package="#SCL#38" value="" x="13.97" y="3.81" smashed="yes" rot="MR270"/>
 <element name="U$3" library="output" package="#SDA#37" value="" x="11.43" y="3.937" smashed="yes" rot="MR270"/>
-<element name="U$4" library="output" package="#3V3#37" value="" x="8.89" y="3.81" smashed="yes" rot="MR90"/>
-<element name="U$5" library="output" package="#GND#36" value="" x="6.35" y="3.937" smashed="yes" rot="MR90"/>
+<element name="U$4" library="output" package="#3V3#37" value="" x="8.89" y="3.937" smashed="yes" rot="MR270"/>
+<element name="U$5" library="output" package="#GND#36" value="" x="6.35" y="3.937" smashed="yes" rot="MR270"/>
 <element name="U$6" library="output" package="TMAG5273_HALL#EFFECT_SENSOR0" value="" x="12.446" y="11.43" smashed="yes" rot="MR0"/>
 <element name="U$7" library="output" package="##INT#5275" value="" x="9.144" y="3.556" smashed="yes"/>
 <element name="U$8" library="output" package="#I2C#5276" value="" x="17.78" y="3.429" smashed="yes"/>
@@ -4966,6 +4990,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-07857" x="18.796" y="8.89" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="VALUE" x="18.034" y="8.89" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
+<element name="U$15" library="output" package="##INT#5276" value="" x="19.05" y="3.683" smashed="yes" rot="MR270"/>
 </elements>
 <signals>
 <signal name="3.3V">
