@@ -41382,6 +41382,22 @@ Switches electrical signals</description>
 <wire x1="50.8" y1="114.3" x2="50.8" y2="35.56" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="114.3" width="0.2032" layer="97" style="longdash"/>
 <wire x1="195.58" y1="114.3" x2="195.58" y2="35.56" width="0.2032" layer="97" style="longdash"/>
+<wire x1="30.48" y1="121.92" x2="48.26" y2="121.92" width="0.2032" layer="97"/>
+<wire x1="48.26" y1="121.92" x2="60.96" y2="121.92" width="0.2032" layer="97"/>
+<wire x1="60.96" y1="121.92" x2="60.96" y2="129.54" width="0.2032" layer="97"/>
+<wire x1="60.96" y1="129.54" x2="48.26" y2="129.54" width="0.2032" layer="97"/>
+<wire x1="48.26" y1="129.54" x2="30.48" y2="129.54" width="0.2032" layer="97"/>
+<wire x1="48.26" y1="129.54" x2="48.26" y2="121.92" width="0.2032" layer="97"/>
+<text x="31.242" y="130.302" size="1.27" layer="97" font="vector">Disable to Header Reset</text>
+<wire x1="30.48" y1="129.54" x2="30.48" y2="121.92" width="0.2032" layer="97"/>
+<wire x1="30.48" y1="127" x2="60.96" y2="127" width="0.2032" layer="97"/>
+<wire x1="30.48" y1="124.46" x2="60.96" y2="124.46" width="0.2032" layer="97"/>
+<text x="33.02" y="127.508" size="1.27" layer="97" font="vector">DISABLE Value</text>
+<text x="30.988" y="124.968" size="1.27" layer="97" font="vector">HIGH (3.3V)</text>
+<text x="30.988" y="122.428" size="1.27" layer="97" font="vector">LOW (0V) - default</text>
+<text x="48.768" y="124.968" size="1.27" layer="97" font="vector">Off</text>
+<text x="48.768" y="122.428" size="1.27" layer="97" font="vector">On</text>
+<text x="49.276" y="127.508" size="1.27" layer="97" font="vector">Board Status</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -41498,22 +41514,22 @@ Switches electrical signals</description>
 <attribute name="NAME" x="171.196" y="81.28" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="174.244" y="81.28" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="50.8" y="160.02" smashed="yes">
-<attribute name="VALUE" x="50.8" y="162.814" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="50.8" y="165.1" smashed="yes">
+<attribute name="VALUE" x="50.8" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="Q1" gate="G$1" x="48.26" y="152.4" smashed="yes" rot="MR180">
-<attribute name="NAME" x="53.34" y="154.94" size="1.778" layer="95" font="vector" rot="MR180"/>
-<attribute name="VALUE" x="53.34" y="157.48" size="1.778" layer="96" font="vector" rot="MR180"/>
+<instance part="Q1" gate="G$1" x="48.26" y="157.48" smashed="yes" rot="MR180">
+<attribute name="NAME" x="53.34" y="160.02" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="53.34" y="162.56" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="58.42" y="144.78" smashed="yes">
-<attribute name="VALUE" x="58.42" y="147.574" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY11" gate="G$1" x="58.42" y="149.86" smashed="yes">
+<attribute name="VALUE" x="58.42" y="152.654" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="38.1" y="147.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.576" y="147.32" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="39.624" y="147.32" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R7" gate="G$1" x="38.1" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.576" y="152.4" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="39.624" y="152.4" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND7" gate="1" x="38.1" y="137.16" smashed="yes">
-<attribute name="VALUE" x="38.1" y="136.906" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND7" gate="1" x="38.1" y="142.24" smashed="yes">
+<attribute name="VALUE" x="38.1" y="141.986" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -41541,7 +41557,7 @@ Switches electrical signals</description>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
-<wire x1="50.8" y1="157.48" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="162.56" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -41586,7 +41602,7 @@ Switches electrical signals</description>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="139.7" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="144.78" x2="38.1" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -41711,26 +41727,10 @@ Switches electrical signals</description>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="50.8" y1="147.32" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="152.4" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V_SW"/>
-<wire x1="58.42" y1="142.24" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="RESET" class="0">
-<segment>
-<wire x1="20.32" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
-<label x="25.4" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J3" gate="J1" pin="5"/>
-</segment>
-<segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="43.18" y1="154.94" x2="38.1" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="154.94" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="152.4" x2="38.1" y2="154.94" width="0.1524" layer="91"/>
-<junction x="38.1" y="154.94"/>
-<label x="33.02" y="154.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="58.42" y1="147.32" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!INT" class="0">
@@ -41749,6 +41749,22 @@ Switches electrical signals</description>
 <wire x1="20.32" y1="78.74" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <label x="25.4" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="J1" pin="6"/>
+</segment>
+</net>
+<net name="DISABLE" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="43.18" y1="160.02" x2="38.1" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="160.02" x2="33.02" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="157.48" x2="38.1" y2="160.02" width="0.1524" layer="91"/>
+<junction x="38.1" y="160.02"/>
+<label x="33.02" y="160.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="20.32" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
+<label x="25.4" y="76.2" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J3" gate="J1" pin="5"/>
 </segment>
 </net>
 </nets>
