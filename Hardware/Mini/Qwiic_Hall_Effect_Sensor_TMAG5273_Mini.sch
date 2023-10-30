@@ -41307,7 +41307,7 @@ Switches electrical signals</description>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="">
 <attribute name="DESIGNER" value="M. Chodikov"/>
-<attribute name="REV" value="v01"/>
+<attribute name="REV" value="v10"/>
 </part>
 <part name="U1" library="TMAG5273" deviceset="TMAG5273A1QDBVT" device="" value="TMAG5273"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -41328,7 +41328,7 @@ Switches electrical signals</description>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI" value="OSHW-LOGOMINI"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_4MM" value="QWIIC_LOGO_4MM"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device="5_MM" value="SFE_LOGO_NAME_FLAME5_MM"/>
-<part name="LOGO6" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device="0.05_INCH" value="SFE_LOGO_FLAME0.05_INCH"/>
+<part name="LOGO6" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH" value="SFE_LOGO_FLAME.1_INCH"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device="7_MM" value="SFE_LOGO_NAME7_MM"/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
