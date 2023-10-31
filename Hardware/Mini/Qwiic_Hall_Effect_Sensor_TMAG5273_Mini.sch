@@ -41317,12 +41317,12 @@ Switches electrical signals</description>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
+<part name="LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
+<part name="INT" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0603-1/10W-1%" value="2.2k"/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1"/>
+<part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI" value="OSHW-LOGOMINI"/>
@@ -41433,11 +41433,11 @@ Switches electrical signals</description>
 <instance part="GND5" gate="1" x="172.72" y="48.26" smashed="yes">
 <attribute name="VALUE" x="172.72" y="48.006" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="JP3" gate="G$1" x="172.72" y="58.42" smashed="yes" rot="R90">
+<instance part="LED" gate="G$1" x="172.72" y="58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="170.18" y="58.42" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="175.26" y="55.88" size="1.778" layer="96" font="vector" rot="R90" align="top-left" display="off"/>
 </instance>
-<instance part="JP2" gate="G$1" x="218.44" y="78.74" smashed="yes" rot="R90">
+<instance part="INT" gate="G$1" x="218.44" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="215.392" y="78.74" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="221.488" y="78.74" size="1.778" layer="96" font="vector" rot="R90" align="center" display="off"/>
 </instance>
@@ -41453,7 +41453,7 @@ Switches electrical signals</description>
 <attribute name="NAME" x="229.616" y="139.7" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="232.664" y="139.7" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="JP1" gate="G$1" x="223.52" y="147.32" smashed="yes" rot="R270">
+<instance part="I2C" gate="G$1" x="223.52" y="147.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="223.52" y="144.78" size="1.778" layer="95" font="vector" rot="R180" align="center"/>
 <attribute name="VALUE" x="243.459" y="149.86" size="1.778" layer="96" font="vector" rot="R270" align="top-center" display="off"/>
 </instance>
@@ -41585,7 +41585,7 @@ Switches electrical signals</description>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="LED" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="50.8" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -41670,14 +41670,14 @@ Switches electrical signals</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="LED" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="63.5" x2="172.72" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="INT" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="73.66" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
@@ -41687,7 +41687,7 @@ Switches electrical signals</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="144.78" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="147.32" x2="218.44" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="I2C" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -41695,13 +41695,13 @@ Switches electrical signals</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="147.32" x2="231.14" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="147.32" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="I2C" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="3.3V_SW" class="0">
 <segment>
 <wire x1="223.52" y1="152.4" x2="223.52" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="I2C" gate="G$1" pin="2"/>
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V_SW"/>
 </segment>
 <segment>
@@ -41711,7 +41711,7 @@ Switches electrical signals</description>
 </segment>
 <segment>
 <wire x1="218.44" y1="83.82" x2="218.44" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="INT" gate="G$1" pin="2"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V_SW"/>
 </segment>
 <segment>
