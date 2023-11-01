@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -46,7 +46,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -5111,11 +5111,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="13.5636" y1="11.3284" x2="10.1854" y2="11.3284" width="0.254" layer="16"/>
 <wire x1="10.1854" y1="11.3284" x2="9.3726" y2="10.5156" width="0.254" layer="16"/>
 <contactref element="J3" pad="4"/>
-<wire x1="16.764" y1="2.794" x2="14.224" y2="2.794" width="0.254" layer="16"/>
+<wire x1="17.907" y1="2.794" x2="14.224" y2="2.794" width="0.254" layer="16"/>
 <wire x1="14.224" y1="2.794" x2="13.97" y2="2.54" width="0.254" layer="16"/>
 <wire x1="13.97" y1="2.54" x2="13.97" y2="1.27" width="0.254" layer="16"/>
-<wire x1="20.193" y1="7.366" x2="20.193" y2="6.223" width="0.254" layer="16"/>
-<wire x1="20.193" y1="6.223" x2="16.764" y2="2.794" width="0.254" layer="16"/>
+<wire x1="20.193" y1="7.366" x2="20.193" y2="5.08" width="0.254" layer="16"/>
+<wire x1="20.193" y1="5.08" x2="17.907" y2="2.794" width="0.254" layer="16"/>
 <wire x1="13.88745" y1="8.8748" x2="15.2422" y2="8.8748" width="0.254" layer="16"/>
 <wire x1="15.2422" y1="8.8748" x2="15.621" y2="9.2536" width="0.254" layer="16"/>
 </signal>
