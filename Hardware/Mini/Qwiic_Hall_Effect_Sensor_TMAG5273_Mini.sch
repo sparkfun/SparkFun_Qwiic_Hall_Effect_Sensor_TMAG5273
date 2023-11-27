@@ -41357,7 +41357,7 @@ Switches electrical signals</description>
 <sheets>
 <sheet>
 <plain>
-<text x="128.778" y="167.64" size="1.524" layer="97" font="vector">7-bit unshifted I2C Address: 0x35</text>
+<text x="128.778" y="167.64" size="1.524" layer="97" font="vector">7-bit unshifted I2C Address: 0x22</text>
 <text x="142.24" y="177.8" size="2.54" layer="94" font="vector" align="center">Hall-Effect Sensor - TMAG5273</text>
 <text x="223.52" y="177.8" size="2.54" layer="94" font="vector" align="center">I²C Pullup</text>
 <text x="226.06" y="172.72" size="1.27" layer="97" font="vector" align="center">Cut traces to disable I²C pullups</text>
