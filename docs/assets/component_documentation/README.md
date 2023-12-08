@@ -17,3 +17,4 @@ Application Notes:
 * [Using Hall-Effect Sensors For Contactless Rotary Encoding and Knob Applications](slya063a.pdf)
 * [Joystick and Lever Design With Hall-Effect Sensors](slyu064.pdf)
 * [3D Hall-Effect Sensor for Knobs in Appliances](slya080.pdf)
+* [Limit Detection for Tamper and End-of-Travel Detection Using Hall-Effect Sensors](sboa514a.pdf)
