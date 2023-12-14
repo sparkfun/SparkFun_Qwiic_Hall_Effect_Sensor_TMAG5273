@@ -4,6 +4,7 @@ component_documentation directory
 A copy of the datasheets, user manuals, programming guides, etc. of the major electrical components on the board.
 
 * [TMAG5273 Datasheet](tmag5273.pdf) (PDF)
+* [DMG2305UX Datasheet](DMG2305UX.pdf) (PDF)
 
 Application Notes:
 
