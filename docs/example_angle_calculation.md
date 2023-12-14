@@ -62,7 +62,7 @@ For this example, users simply need to connect their Qwiic Hall-Effect Sensor bo
 This example enables the CORDIC engine to calculate the angle of a magnet rotating about the z-axis, which is then displayed in the [Serial Monitor](https://learn.sparkfun.com/tutorials/112).
 
 <figure markdown>
-[![Data stream in the serial monitor](./assets/img/hookup_guide/example-interrupt.gif){ width="400" }](./assets/img/hookup_guide/example-interrupt.gif "Click to enlarge")
+[![Data stream in the serial monitor](./assets/img/hookup_guide/example-angle_calculation.gif){ width="400" }](./assets/img/hookup_guide/example-angle_calculation.gif "Click to enlarge")
 <figcaption markdown>
 The angle of the magnet is streamed from the TMAG5273 sensor into the [Serial Monitor](https://learn.sparkfun.com/tutorials/112).
 </figcaption>
@@ -76,3 +76,6 @@ The angle of the magnet is streamed from the TMAG5273 sensor into the [Serial Mo
 	<iframe src="https://www.youtube.com/embed/B4OhGdPjmc4?&amp;start=22;&amp;end=32;" title="Demo Video - Magnetic Knob on Samsung Cooktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 	</center>
+
+	!!! warning
+		The casing of rare Earth magnets is often conductive. Users should take precautions to avoid shorting out the components or electrical contacts with these types of magnets.

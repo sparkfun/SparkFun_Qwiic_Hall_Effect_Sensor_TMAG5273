@@ -69,3 +69,6 @@ The magnetic flux (mT) and temperature (&deg;C) values streamed from the TMAG527
 
 !!! tip
 	For this example to work, users will need to move a magnet near the sensor.
+
+	!!! warning
+		The casing of rare Earth magnets is often conductive. Users should take precautions to avoid shorting out the components or electrical contacts with these types of magnets.

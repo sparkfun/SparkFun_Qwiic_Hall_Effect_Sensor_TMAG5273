@@ -264,13 +264,15 @@ Unfortunately, the TMAG5273 doesn't incorporate a software reset. The intended u
 
 
 #### Disable Button
-A ++"Disable"++ button is provided on the regular, 1" x 1" Qwiic board. This button is connected to the same reset circuitry of the `DISABLE` pin.
+A ++"Disable"++ button is only provided on the regular, 1" x 1" Qwiic board. This button is connected to the same reset circuitry of the `DISABLE` pin.
 
 <figure markdown>
 [![Disable button on the standard board](./assets/img/hookup_guide/buttons-disable-1x1.png){ width="400" }](./assets/img/hookup_guide/buttons-disable-1x1.png "Click to enlarge")
 <figcaption markdown>The ++"Disable"++ button on the Qwiic Hall-Effect Sensor.</figcaption>
 </figure>
 
+!!! tip
+	The button casing appears to be ferromagnetic. Therefore, a strong magnetic field *(i.e. from a rare Earth magnet)* could potentially exert enough force to rotate or lift the board.
 
 ### I<sup>2</sup>C Pins
 The I<sup>2</sup>C interface can also be accessed either through the breakout pins or the Qwiic connectors on the board. In most cases, the Qwiic connector will be the simplest method to connect the Qwiic Hall-Effect Sensor boards to a microcontroller.

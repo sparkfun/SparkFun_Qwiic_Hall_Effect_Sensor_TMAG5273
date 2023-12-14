@@ -111,6 +111,9 @@ To get started, users will need a few items. Now some users may already have a f
 	**SparkFun Linear 3D Hall-Effect Sensor - TMAG5273 (Qwiic)**<br>
 	SEN-23880</a>
 
+	??? tip "Button Casing"
+		The button casing appears to be ferromagnetic. Therefore, a strong magnetic field *(i.e. from a rare Earth magnet)* could potentially exert enough force to rotate or lift the board.
+
 -   <a href="https://www.sparkfun.com/products/23880">
 	<figure markdown>
 	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/4/2/3/8/23881-Linear-3D-Hall-Effect-Sensor-Mini-Feature-new.jpg)
@@ -130,6 +133,9 @@ To get started, users will need a few items. Now some users may already have a f
 
 	**Magnet Square - 0.25"**<br>
 	COM-08643</a>
+
+	??? danger "Metal Casing"
+		The casing for rare Earth magnets, such as these, is often conductive. Users should take precautions to avoid shorting out the components or electrical contacts.
 
 </div>
 
